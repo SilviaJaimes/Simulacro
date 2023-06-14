@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(/img/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Menú */
+    .navbar-brand {
+        font-family: 'Poiret One', cursive;
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        padding: 1%;
+    } 
+
+    .navbar-brand:hover {
+        color: rgba(255, 255, 255, 0.61);
+    }
+
+    .container-fluid {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .bg-body-tertiary {
+        --bs-bg-opacity: 0;
+    }
+
+    .nav-link, .form-label {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    }
+
+    .nav-link:hover {
+        color: rgba(255, 255, 255, 0.61);
+    }
+
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+        color: rgb(255, 255, 255);
+    }
+
+    .nav-link.active:hover {
+        color: rgba(255, 255, 255, 0.61);
+    }
+
+
+/* Botones-carrusel principal */
+    #conocer {
+        text-decoration: none;
+        background-color: rgb(0, 0, 0);
+        border-color: rgb(255, 255, 255);
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 20%;
+    }
+
+    #conocer:hover {
+        background-color: rgba(0, 0, 0, 0.88);
+        color: rgba(255, 255, 255, 0.61);
+    }
+
+
+/* Ingresar datos */
+    h2 {
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    #agregar, #agregarRuta, #comprar {
+        margin: 5%;
+        margin-top: 3%;
+    }
+
+    #ag, #agre, #ingresar {
+        margin-top: 3%;
+        background-color: rgb(255, 255, 255);
+        font-size: 25px;
+        font-family: 'Familjen Grotesk', sans-serif;
+        color: black;
+        border-color: rgb(0, 0, 0);
+    }
+
+    #ag:hover {
+        color: rgb(255, 255, 255);
+        background-color: black;
+        border-color: rgb(255, 255, 255);
+    }
+
+    #agre:hover {
+        color: rgb(255, 255, 255);
+        background-color: black;
+        border-color: rgb(255, 255, 255);
+    }
+
+    #ingresar:hover {
+        color: rgb(255, 255, 255);
+        background-color: black;
+        border-color: rgb(255, 255, 255);
+    }
+
+    th {
+        font-size: 20px;
+        font-family: 'Familjen Grotesk', sans-serif;
+    }
+
+    .gestiones {
+        background-color: black;
+        margin-top: 8%;
+        padding: 2%;
+    }
+
+
+/* Buscar datos */
+    #botonBuscar {
+        border-color: white;
+        color: white;
+        font-size: 20px;
+        font-family: 'Familjen Grotesk', sans-serif;
+    }
+
+    #botonBuscar:hover {
+        background-color: rgb(0, 0, 0);
+        border-color: white;
+        color: white;
+    }
+
+    #buscar {
+        margin: 5%;
+        margin-top: 5%;
+    }
+
+
+/* Tarjetas normales y tarjetas carrusel */
+    .card {
+        background-color: rgba(0, 0, 0, 0.829);
+        border: 2px solid rgba(255, 255, 255, 0.938);
+        border-radius: 3%;
+        padding: 15px;
+        width: 300px;
+        margin: 5%;
+        box-shadow: 0px 0px 5px black;
+    }
+
+    h3 {
+        font-family: 'Jost', sans-serif;
+        font-size: 27px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    #infoTarjetas {
+        display: flex;
+        justify-content: center;
+        margin: 10%;
+    }
+
+    .card-title {
+        font-family: 'Poiret One', cursive;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    p {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: 'Familjen Grotesk', sans-serif;
+    }
+
+    .card-group {
+        margin: 10%;
+        margin-top: 1%;
+    }
+
+    .continentes {
+        font-size: 60px;
+    }
+
+    #carouselExample {
+        margin-top: 12%;
+    }
+
+    #tarjetas-ciudades {
+        border-color: black;
+    }
+
+    #fotosCarrusel {
+        height: 180px;
+    }
+
+
+/* Pie de página */
+    .contacto {
+        margin: 1%;
+        background-color: rgb(0, 0, 0);
+        padding: 3%;
+    }
+
+    .subtitulosPie {
+        text-align: left;
+    }
+
+    #redes {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: 'Familjen Grotesk', sans-serif;
+    }
+
+
+/* Datos ingresados */
+    td {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-family: 'Familjen Grotesk', sans-serif;
+    }
+
+    #eliminarCliente {
+        background-color: white;
+        font-size: 20px;
+        font-family: 'Familjen Grotesk', sans-serif;
+        color: black;
+        border: 1px solid black;
+        width: 45%;
+    }
+    
+    #eliminarCliente:hover {
+        background-color: black;
+        color: rgb(255, 255, 255);
+    }
+
+    #modificarCliente {
+        background-color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: 'Familjen Grotesk', sans-serif;
+        color: black;
+        border: 1px solid black;
+        width: 45%;
+    }
+
+    #modificarCliente:hover {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+
+    #rut {
+        margin-top: 5%;
+    }
+
+    #eliminarRuta {
+        background-color: white;
+        font-size: 20px;
+        font-family: 'Familjen Grotesk', sans-serif;
+        color: black;
+        border: 1px solid black;
+        width: 100%;
+    }
+    
+    #eliminarRuta:hover {
+        background-color: black;
+        color: rgb(255, 255, 255);
+    }
+
+    .tarjetaOculta {
+        display: none;
+    }
+
+    #confirmarCompra {
+        margin-top: 5%;
+        margin-bottom: 2%;
+        background-color: white;
+        font-size: 20px;
+        font-family: 'Familjen Grotesk', sans-serif;
+        color: black;
+        border: 1px solid black;
+        width: 10%;
+    }
+
+    #confirmarCompra:hover {
+        background-color: black;
+        color: rgb(255, 255, 255);
+    }

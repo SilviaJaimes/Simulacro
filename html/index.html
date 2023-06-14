@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulacro aerolinea</title>
+    <link rel="shortcut icon" href="/img/airplane-engines-fill.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Travel fast</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ingresar.html">Ingresar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Carrusel principal -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/img/uno.png" class="d-block w-100" id="imagen" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-primary" href="#infoTarjetas" role="button" id="conocer">Conoce diferentes lugares</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/dos.png" class="d-block w-100" id="imagen" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-primary" href="#carouselExample" role="button" id="conocer">Crea nuevas experiencias</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/tres.png" class="d-block w-100" id="imagen" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-primary" href="ingresar.html" role="button" id="conocer">Ingresa ahora</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+<!-- Tarjetas de información -->
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="infoTarjetas">
+        <div class="col">
+            <div class="card h-100" >
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Baluarte_de_Santiago_CTG_11_2019_9804.jpg" class="card-img-top" style="height: 200px;">
+                <div class="card-body">
+                    <a href="https://www.google.com/maps/place/Cartagena+de+Indias,+Provincia+de+Cartagena,+Bol%C3%ADvar/@10.4003571,-75.5909281,12z/data=!3m1!4b1!4m6!3m5!1s0x8ef625e7ae9d1351:0xb161392e033f26ca!8m2!3d10.3932277!4d-75.4832311!16zL20vMGg0NW4?hl=es&entry=ttu" target="_blank">
+                        <h5 class="card-title"><b>Cartagena de Indias</b></h5>
+                        <p class="card-text">Junto al mar, se encuentra la Ciudad Vieja amurallada, que se fundó en el siglo XVI, con plazas, calles de adoquines y edificios coloniales coloridos.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100" >
+                <img src="https://cdn.getyourguide.com/img/location/5cced3db8b581.jpeg/75.jpg" class="card-img-top" style="height: 200px;">
+                <div class="card-body">
+                    <a href="https://www.google.com/maps/place/Medell%C3%ADn,+Antioquia/@6.2443536,-75.7288703,12z/data=!3m1!4b1!4m6!3m5!1s0x8e4428dfb80fad05:0x42137cfcc7b53b56!8m2!3d6.2476376!4d-75.5658153!16zL20vMDF4XzZz?hl=es&entry=ttu" target="_blank">
+                        <h5 class="card-title"><b>Medellín</b></h5>
+                        <p class="card-text">Es apodada la "Ciudad de la eterna primavera" por su clima templado y alberga la famosa Feria de las Flores anual.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100" >
+                <img src="https://images.ctfassets.net/cfexf643femz/7Fl27hMrmRNNdkXsQn6G2y/81032dc46c81fc132e0e55499674b929/santa-marta-invesion.jpg" class="card-img-top" style="height: 200px;">
+                <div class="card-body">
+                    <a href="https://www.google.com/maps/place/Santa+Marta,+Magdalena/@11.2316066,-74.223597,13z/data=!3m1!4b1!4m6!3m5!1s0x8ef4f66ff59a173d:0x124b95fc153af9b8!8m2!3d11.2403547!4d-74.2110227!16zL20vMDJuc2xj?hl=es&entry=ttu" target="_blank">
+                        <h5 class="card-title"><b>Santa Marta</b></h5>
+                        <p class="card-text">Santa Marta es una ciudad ubicada en el mar Caribe, en el departamento de Magdalena en el norte de Colombia; es un puerto ajetreado.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100" >
+                <img src="https://www.ciencuadras.com/blog/wp-content/uploads/2022/06/Destacado_Que-tanto-sabes-de-tu-barrio.jpg" class="card-img-top" style="height: 200px;">
+                <div class="card-body">
+                    <a href="https://www.google.com/maps/place/Bogot%C3%A1/@4.6486206,-74.272623,11z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9bfd2da6cb29:0x239d635520a33914!8m2!3d4.7109886!4d-74.072092!16zL20vMDFkenlj?hl=es&entry=ttu" target="_blank">
+                        <h5 class="card-title"><b>Bogotá</b></h5>
+                        <p class="card-text">La Candelaria, su centro con adoquines, cuenta con sitios coloniales como el Teatro Colón neoclásico y la Iglesia de San Francisco del siglo XVII.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100" >
+                <img src="https://www.parquesnacionales.gov.co/portal/wp-content/uploads/2020/10/cabo-san-juan-1.jpg" class="card-img-top" style="height: 200px;">
+                <div class="card-body">
+                    <a href="https://www.google.com/maps/place/Parque+Nacional+Natural+Tayrona/@11.3064461,-74.068331,17z/data=!3m1!4b1!4m6!3m5!1s0x8ef48b22eaf45f4d:0x485723dccbdb882f!8m2!3d11.3064409!4d-74.0657561!16s%2Fm%2F03c4nqv?hl=es&entry=ttu" target="_blank">
+                        <h5 class="card-title"><b>Parque nacional natural Tayrona</b></h5>
+                        <p class="card-text">Es una gran zona protegida que abarca las laderas de la Sierra Nevada de Santa Marta en las zonas adyacentes a la costa del Caribe.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100" >
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/b9/ed/93/piedra-del-penol.jpg?w=700&h=500&s=1" class="card-img-top" style="height: 200px;">
+                <div class="card-body">
+                    <a href="https://www.google.com/maps/place/Guatape,+Guatap%C3%A9,+Antioquia/@6.2311481,-75.1632859,16z/data=!3m1!4b1!4m6!3m5!1s0x8e441d2972edf1bb:0xc8e9c49c096f7adc!8m2!3d6.2337643!4d-75.1592213!16zL20vMDdodnhq?hl=es&entry=ttu" target="_blank">
+                        <h5 class="card-title"><b>Guatape</b></h5>
+                        <p class="card-text">Es famoso por sus casas decoradas con bajorrelieves de colores. Está situado cerca del embalse artificial de Peñol-Guatapé, un centro de deportes acuáticos muy concurrido.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+        <div class="card h-100" >
+            <img src="https://imagenescityexpress.scdn6.secure.raxcdn.com/sites/default/files/2019-06/descubre-colombia-islas-del-rosario.jpg" class="card-img-top" style="height: 200px;">
+                <div class="card-body">
+                    <a href="https://www.google.com/maps/place/Islas+del+Rosario/@10.1970951,-75.8016001,13z/data=!3m1!4b1!4m6!3m5!1s0x8e587c3344bf117b:0x267031088b3adced!8m2!3d10.1970132!4d-75.7604!16s%2Fm%2F04jlcb0?hl=es&entry=ttu" target="_blank">
+                        <h5 class="card-title"><b>Islas del Rosario</b></h5>
+                        <p class="card-text">Es un pequeño archipiélago formado por unas 28 islas, que es parte de la zona insular de Cartagena de indias, con una superficie terrestre de 20 hectáreas.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100" >
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/a2/58/15/plaza-san-nicolas.jpg?w=700&h=-1&s=1" class="card-img-top" style="height: 200px;">
+                <div class="card-body">
+                    <a href="https://www.google.com/maps/place/Barranquilla,+Atl%C3%A1ntico/@10.9839694,-74.9004202,12z/data=!3m1!4b1!4m6!3m5!1s0x8ef42d44d12ae605:0x2633844581b917b2!8m2!3d11.0041072!4d-74.8069813!16zL20vMDJiODRi?hl=es&entry=ttu" target="_blank">
+                        <h5 class="card-title"><b>Barranquilla</b></h5>
+                        <p class="card-text">La ciudad es conocida por su enorme Carnaval, que reúne a artistas con extravagantes disfraces, carros elaborados y música cumbia.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100" >
+                <img src="https://blogs.iadb.org/ciudades-sostenibles/wp-content/uploads/sites/17/2016/04/cali-3.jpg" class="card-img-top" style="height: 200px;">
+                <div class="card-body">
+                    <a href="https://www.google.com/maps/place/Cali,+Valle+del+Cauca/@3.3953931,-76.69048,11z/data=!3m1!4b1!4m6!3m5!1s0x8e30a6f0cc4bb3f1:0x1f0fb5e952ae6168!8m2!3d3.4516467!4d-76.5319854!16zL20vMDFwc3Nm?hl=es&entry=ttu" target="_blank">
+                        <h5 class="card-title"><b>Cali</b></h5>
+                        <p class="card-text">Es conocida por el baile de la salsa, del que hay muchos clubes en el suburbio de Juanchito. En el barrio más antiguo de Cali, la catedral neoclásica de San Pedro alberga pinturas de la Escuela de Quito. </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Carrusel tarjetas-->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h3 class="continentes">Europa</h3>
+                <div class="card-group">
+                    <div class="card" id="tarjetas-ciudades">
+                        <img src="https://cdn.pixabay.com/photo/2013/04/11/19/46/building-102840_1280.jpg" class="card-img-top" id="fotosCarrusel" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Francia</h5>
+                            <p class="card-text"><strong>Ciudad: </strong> París</p>
+                        </div>
+                    </div>
+
+                    <div class="card" id="tarjetas-ciudades">
+                        <img src="https://cdn.pixabay.com/photo/2014/08/15/11/29/beach-418742_1280.jpg" class="card-img-top" id="fotosCarrusel" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Grecia</h5>
+                            <p class="card-text"><strong>Ciudad: </strong> Lárisa</p>
+                        </div>
+                    </div>
+
+                    <div class="card" id="tarjetas-ciudades">
+                        <img src="https://cdn.pixabay.com/photo/2019/10/06/08/57/tiber-river-4529605_1280.jpg" class="card-img-top" id="fotosCarrusel" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Italia</h5>
+                            <p class="card-text"><strong>Ciudad: </strong> Roma</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <h3 class="continentes">Norteamérica</h3>
+                <div class="card-group">
+                    <div class="card" id="tarjetas-ciudades">
+                        <img src="https://cdn.pixabay.com/photo/2017/08/09/09/52/vancouver-2613994_1280.jpg" class="card-img-top" id="fotosCarrusel" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Canadá</h5>
+                            <p class="card-text"><strong>Ciudad: </strong> Vancouver</p>
+                        </div>
+                    </div>
+
+                    <div class="card" id="tarjetas-ciudades">
+                        <img src="https://cdn.pixabay.com/photo/2017/08/31/05/36/buildings-2699520_1280.jpg" class="card-img-top" id="fotosCarrusel" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Estados Unidos</h5>
+                            <p class="card-text"><strong>Ciudad: </strong> New York</p>
+                        </div>
+                    </div>
+
+                    <div class="card" id="tarjetas-ciudades">
+                        <img src="https://cdn.pixabay.com/photo/2016/02/29/06/43/cancun-1228131_1280.jpg" class="card-img-top" id="fotosCarrusel" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">México</h5>
+                            <p class="card-text"><strong>Ciudad: </strong> Cancún</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <h3 class="continentes">Asia</h3>
+                <div class="card-group">
+                    <div class="card" id="tarjetas-ciudades">
+                        <img src="https://cdn.pixabay.com/photo/2021/05/01/09/59/city-6220689_1280.jpg" class="card-img-top" id="fotosCarrusel" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Japón</h5>
+                            <p class="card-text"><strong>Ciudad: </strong> Tokio</p>
+                        </div>
+                    </div>
+
+                    <div class="card" id="tarjetas-ciudades">
+                        <img src="https://cdn.pixabay.com/photo/2023/02/11/13/43/building-7782841_1280.jpg" class="card-img-top" id="fotosCarrusel" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Corea del sur</h5>
+                            <p class="card-text"><strong>Ciudad: </strong> Seúl</p>
+                        </div>
+                    </div>
+
+                    <div class="card" id="tarjetas-ciudades">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/04/18/27/beijing-1798593_1280.jpg" class="card-img-top" id="fotosCarrusel" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">China</h5>
+                            <p class="card-text"><strong>Ciudad: </strong> Pekín</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <h3 class="continentes">Oceanía</h3>
+                <div class="card-group">
+                    <div class="card" id="tarjetas-ciudades">
+                        <img src="https://cdn.pixabay.com/photo/2018/04/16/17/42/city-3325314_1280.jpg" class="card-img-top" id="fotosCarrusel" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Australia</h5>
+                            <p class="card-text"><strong>Ciudad: </strong> Sídney</p>
+                        </div>
+                    </div>
+
+                    <div class="card" id="tarjetas-ciudades">
+                        <img src="https://cdn.pixabay.com/photo/2015/03/06/11/40/sun-rise-661548_1280.jpg" class="card-img-top" id="fotosCarrusel" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nueva Zelanda</h5>
+                            <p class="card-text"><strong>Ciudad: </strong> Auckland</p>
+                        </div>
+                    </div>
+
+                    <div class="card" id="tarjetas-ciudades">
+                        <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/7a/5e.jpg" class="card-img-top" id="fotosCarrusel" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Polonia Francesa</h5>
+                            <p class="card-text"><strong>Ciudad: </strong> Vaitape</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <h3 class="continentes">América del sur</h3>
+                <div class="card-group">
+                    <div class="card" id="tarjetas-ciudades">
+                        <img src="https://cdn.pixabay.com/photo/2017/05/25/17/41/medellin-2343953_1280.jpg" class="card-img-top" id="fotosCarrusel" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Colombia</h5>
+                            <p class="card-text"><strong>Ciudad: </strong> Medellín</p>
+                        </div>
+                    </div>
+
+                    <div class="card" id="tarjetas-ciudades">
+                        <img src="https://cdn.pixabay.com/photo/2017/01/08/19/30/rio-de-janeiro-1963744_1280.jpg" class="card-img-top" id="fotosCarrusel" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Brazil</h5>
+                            <p class="card-text"><strong>Ciudad: </strong> Río de Janeiro</p>
+                        </div>
+                    </div>
+
+                    <div class="card" id="tarjetas-ciudades">
+                        <img src="https://cdn.pixabay.com/photo/2016/09/28/04/08/snowy-mountains-1699715_1280.jpg" class="card-img-top" id="fotosCarrusel" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Chile</h5>
+                            <p class="card-text"><strong>Ciudad: </strong> Santiago de Chile</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>    
+
+<!-- Contacto -->
+    <div class="contacto" id="contact">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <h3 class="subtitulosPie">Travel fast</h3>
+            </div>
+            <div class="col">
+                <h3 class="subtitulosPie">Contacto</h3>
+                <a href="https://www.instagram.com/" target="_blank" class="bi bi-instagram" id="redes">  Travel_fast</a><br>
+                <a href="https://www.facebook.com/" target="_blank" class="bi bi-facebook" id="redes">  Travel fast</a><br>
+                <a href="https://web.whatsapp.com/" target="_blank" class="bi bi-whatsapp" id="redes">  +57 315 345 8740</a><br>
+                <a href="https://gmail.com/" target="_blank" class="bi bi-envelope-at" id="redes">  travelfast@gmail.com</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+    <script src="/js/ejercicio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
